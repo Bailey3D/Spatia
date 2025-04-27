@@ -7,7 +7,7 @@ def readme():
 
 
 setup(
-    name="spaita",
+    name="spatia",
     version="0.0.1",
     description="Description",
     long_description=readme(),
@@ -17,12 +17,13 @@ setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
-    keywords="spaita",
-    url="https://github.com/Bailey3D/spaita",
+    keywords="spatia",
+    url="https://github.com/Bailey3D/spatia",
     author="Bailey3D",
     author_email="bailey@bailey3d.com",
     license="MIT",
-    packages=["spaita"],
+    packages=["spatia"],
+    package_dir={"spatia": "spatia"},
     install_requires=[
         "numpy",
         "scipy"
